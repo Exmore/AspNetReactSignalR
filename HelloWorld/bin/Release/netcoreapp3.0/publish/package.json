@@ -1,0 +1,34 @@
+{
+  "name": "helloworld",
+  "scripts": {
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "@progress/kendo-react-dropdowns": "^3.9.0",
+    "dotnetify": "~3.5.0",
+    "react": "~16.6.0",
+    "react-dom": "~16.6.0",
+    "react-dropdown": "^1.6.4",
+    "react-functional-select": "^2.0.0",
+    "react-widgets": "^4.4.11",
+    "react-window": "^1.8.5",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "aspnet-webpack": "^3.0.0",
+    "babel-core": "~6.26.3",
+    "babel-loader": "~7.1.4",
+    "babel-preset-env": "~1.7.0",
+    "babel-preset-react": "~6.24.1",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.3.0",
+    "webpack-hot-middleware": "^2.23.1"
+  }
+}
